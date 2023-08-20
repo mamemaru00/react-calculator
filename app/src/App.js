@@ -3,21 +3,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="calc">
+      <header>電卓</header>
+      <div className="display">
+        電卓の表示
+      </div>
+      <div className="input">
+        <div className="numbers">
+          {/* ここに数字のボタンや「.」、「=」ボタン */}
+        </div>
+        <div className="operators">
+          {/* ここに「+」、「-」、「*」、「/」ボタン */}
+        </div>
+      </div>
     </div>
   );
 }
